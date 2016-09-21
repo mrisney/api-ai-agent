@@ -26,7 +26,7 @@ Edit pom.xml as per your application, run maven build, deploy to heroku:
 mvn clean heroku:deploy-war
 ```
 After deployment of the war file to the servlet container,
-go to http://api.ai.com.
+go to http://api.ai
 Configure your Fulfillment Webhook URL (which is the REST endpoint defined, using SparkJava), and set as enabled:
 
 ```
