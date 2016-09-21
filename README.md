@@ -16,7 +16,7 @@ You can test this directly by texting SMS @ +1-831-777-8274
 
 ## Deploy
 
-Edit the Google Maps API key to the configuration file: src/main/resources/config.properties:
+Edit the Google Maps API key to the configuration file: src/main/resources/config.properties :
 ```
 google.places.apikey=<YOUR_GOOGLE_API_KEY>
 ```
@@ -27,7 +27,7 @@ mvn clean heroku:deploy-war
 ```
 After deployment of the war file to the servlet container,
 go to http://api.ai
-Configure your Fulfillment Webhook URL (which is the REST endpoint, defined using SparkJava), and set as enabled:
+Configure your Fulfillment Webhook URL (which is the REST endpoint, defined using SparkJava), and set as enabled :
 
 ```
 <YOUR_SERVER_URL>/webhook
