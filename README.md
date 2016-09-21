@@ -1,6 +1,6 @@
 [![license](http://img.shields.io/badge/license-APACHE2-blue.svg?style=flat)](https://raw.githubusercontent.com/mrisney/api-ai-agent/master/LICENSE)
 
-# Example api.ai, twilio SMS integration
+# Example api.ai with twilio programmatic SMS application.
 
 Example agent integrating [api.ai](http://api.ai) with [twilio SMS](https://twilio.com) service.
 
