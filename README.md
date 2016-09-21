@@ -34,9 +34,9 @@ Configure your Fulfillment Webhook URL (which is the REST endpoint defined, usin
 https://api-ai-agent-khan-squash.herokuapp.com/webhook
 
 ```
- <center>
-(<img src="https://raw.githubusercontent.com/mrisney/api-ai-agent/master/media/fulfillment-screen-shot.png" width="400">)
-</center>
+<p align="center">
+<img src="https://raw.githubusercontent.com/mrisney/api-ai-agent/master/media/fulfillment-screen-shot.png" width="400">
+</p>
 
 \* The parameters and actions are defined in api.ai console, and are specific to this application.
 The actions serve as router type values, these are defined in api.ai.
