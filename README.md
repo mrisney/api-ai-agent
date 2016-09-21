@@ -4,7 +4,7 @@
 
 Example agent integrating [api.ai](http://api.ai) with [twilio SMS](https://twilio.com) service.
 
-## Dial +1(831) 77SQUASH
+## Text +1 (831) 77-SQUASH
 You can test this directly by texting SMS @ +1-831-777-8274
 
 * Type find a court near [enter your city, location], will find squash courts anywhere in the world.
@@ -21,7 +21,7 @@ Edit the Google Maps API key to the configuration file: src/main/resources/confi
 google.places.apikey=<YOUR_GOOGLE_API_KEY>
 ```
 
-Edit pom.xml as per your application, run maven build, deploy to heroku:
+Edit pom.xml as per your application, run maven build, deploy to heroku :
 ```
 mvn clean heroku:deploy-war
 ```
