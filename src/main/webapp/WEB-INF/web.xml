@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>api-ai-khan-squash-agent</display-name>
+  <filter>
+   <filter-name>SparkFilter</filter-name>
+   <filter-class>spark.servlet.SparkFilter</filter-class>
+   <init-param>
+     <param-name>applicationClass</param-name>
+     <param-value>ai.api.agent.khan.squash.rest.Application</param-value>
+   </init-param>
+ </filter>
+
+ <filter-mapping>
+   <filter-name>SparkFilter</filter-name>
+   <url-pattern>/*</url-pattern>
+ </filter-mapping>
+</web-app>
